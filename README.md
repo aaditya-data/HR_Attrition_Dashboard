@@ -97,28 +97,12 @@ The dashboard highlights:
 
 ---
 
-## 🎨 Dashboard Design Principles
-
-To ensure a clean and modern look:
-
-- Used a **consistent blue-based theme**  
-- Applied **premium color palette** across charts  
-- Created a custom **header section**  
-- Built aligned KPI boxes with bold numeric indicators  
-- Designed a structured **right-side slicer panel**  
-- Used spacing, alignment, and typography for professional layout  
-
----
-
 ## 📁 Files Included
 
 - **HR Employee Dataset.csv** → Raw Data  
 - **HR Attrition Analysis.xlsx** → Cleaned Data
 - **HR Attrition Dashboard.png** → Main dashboard
-- **README.md** → Project documentation  
-
----
-
+- **README.md** → Project documentation 
 
 ---
 
@@ -135,6 +119,19 @@ To ensure a clean and modern look:
 
 Special thanks to the IBM HR Dataset (open-source) used for analysis.  
 Inspired by real-world HR analytics dashboards.
+
+---
+
+⚠️ IMPORTANT  
+This project is for portfolio display only.  
+You are NOT allowed to:
+
+- Fork this repository  
+- Re-upload this repository  
+- Copy any part of this project  
+- Use this work for academic or commercial purposes  
+
+GitHub DMCA protection applies.
 
 ---
 
