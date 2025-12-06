@@ -145,3 +145,7 @@ If you found this project helpful, please consider giving it a ⭐ to support my
 
 ## 📊 Dashboard Preview
 
+<p align="center">
+  <img src="HR%20Attrition%20Project/HR%20Attrition%20Dashboard.png" width="850">
+</p>
+
