@@ -5,70 +5,16 @@ It analyzes employee attrition patterns using interactive **KPIs, charts, and sl
 
 ---
 
-## 🚀 Project Overview
+## 🎯 Project Overview
 
-Employee attrition is a major challenge for organizations.  
-This dashboard highlights:
+The goal of this project is to analyze employee attrition and identify trends that help HR departments make data-driven decisions.  
+This dashboard gives a full 360° view of workforce behavior, including:
 
-- Which **departments** experience the highest attrition  
-- Which **job roles** are most affected  
-- How **age** and **years at company** impact attrition  
-- The overall **attrition rate**, **active workforce**, and **average salary**  
-
-The dashboard is fully interactive, allowing users to filter insights using slicers such as:
-
-✔ Department  
-✔ Gender  
-✔ Job Role  
-✔ Marital Status  
-✔ Education Field
-
----
-
-## 🔧 Tools & Techniques Used
-
-### **Tools**
-- Microsoft Excel  
-- Excel PivotTables  
-- Excel PivotCharts  
-- Excel Slicers  
-- Conditional Formatting  
-- Data Cleaning & Transformation  
-
-### **Skills Demonstrated**
-- Data cleaning  
-- Data modeling in Excel  
-- Working with calculated columns  
-- Building KPIs  
-- Creating interactive dashboards  
-- Designing professional layouts  
-- Applying color theory for data visualization  
-
----
-
-## 🗂 Dataset Description
-
-Dataset used: **IBM HR Analytics Employee Attrition Dataset**
-
-Key columns analyzed:
-- Age  
-- Attrition  
-- Department  
-- Job Role  
-- Monthly Income  
-- Years at Company  
-- Gender  
-- Education Field  
-- Marital Status  
-- Overtime  
-
-Added calculated fields:
-- **Attrition Flag (1/0)**  
-- **Active Employee Flag (1/0)**  
-- **Age Group**  
-- **YearsAtCompany Group**
-
----
+- Which job roles and departments have the highest attrition  
+- Demographic factors influencing attrition  
+- Salary and commute-related attrition behavior  
+- Experience-based trends (Years at Company)  
+- Overall employee composition
 
 ## 📊 Key Performance Indicators (KPIs)
 
@@ -82,18 +28,56 @@ The dashboard highlights:
 | Attrition Rate | 16% |
 | Average Age | 37 |
 | Avg Monthly Income | ₹ 6,503 |
+| Avg Years At Company | 7 |
 
 (All values are dynamically linked to PivotTables.)
 
 ---
 
-## 📉 Visualizations Included
+## 📊 Visuals Included (Charts)
 
-- **Attrition by Department** (Bar Chart)  
-- **Attrition by Job Role** (Bar Chart)  
-- **Attrition by Age Group** (Column Chart)  
-- **Attrition by Years at Company Group** (Column Chart)  
-- **Interactive Slicer Panel** for flexible filtering  
+The dashboard contains several chart types to deliver deep insights:
+
+- **Attrition by Salary Range**  
+- **Attrition by Work Distance**  
+- **Attrition by Job Role**  
+- **Attrition by Department**  
+- **Attrition by Gender**  
+- **Attrition by Age Group**  
+- **Attrition by Years at Company**  
+- **Attrition by Education Field**
+
+All charts are dynamic and update automatically when slicers are applied.
+
+---
+
+## 🎛️ Interactive Slicers
+
+Users can filter the dashboard based on:
+
+- Job Role  
+- Education Field  
+- Age Group  
+- Years at Company  
+- Marital Status  
+- Department  
+- Gender  
+- Overtime  
+- Attrition (Yes/No)
+
+These slicers allow for flexible multi-dimensional analysis.
+
+---
+
+## 🧰 Tools & Techniques Used
+
+- Microsoft Excel  
+- Pivot Tables  
+- Pivot Charts  
+- Slicers  
+- KPI Cards  
+- Conditional Formatting  
+- Data Grouping (Salary Bins, Distance Bins, Age Bands)
 
 ---
 
@@ -106,12 +90,21 @@ The dashboard highlights:
 
 ---
 
-## 💡 Key Insights
+## 🔍 Key Insights from the HR Attrition Analysis
 
-- **Sales** and **Research & Development** show the highest attrition.  
-- Employees aged **25–35** leave the most.  
-- Most employees who leave have **0–3 years** at the company.  
-- Specific job roles like **Laboratory Technician** and **Sales Executive** show above-average attrition.  
+- **Overall Attrition Rate is 16%**, with 237 employees leaving out of 1470.
+- **Research & Development and Sales departments** account for the highest attrition, indicating potential workload or career growth challenges.
+- **Laboratory Technicians, Sales Executives, and Research Scientists** experience the highest turnover among job roles.
+- Employees aged **25–35 show the highest attrition**, suggesting early-career mobility or dissatisfaction.
+- **Low salary groups** (< ₹10,000 monthly) exhibit significantly higher attrition, highlighting compensation as a major driver.
+- **Employees with 0–3 years of experience** have the highest attrition, indicating onboarding or role-fit issues.
+- **Overtime workers leave more frequently**, pointing toward burnout or poor work–life balance.
+- Attrition patterns are **balanced across genders**, implying gender is not a major factor.
+- **Education fields like Life Sciences and Medical** show higher attrition, possibly due to strong external job markets.
+- **Commute distance trends** show employees living very close (0–4 km) or far (> 20 km) from the office tend to leave more.
+
+These insights help identify key risk areas such as compensation, workload, early-tenure support, and department-specific challenges.
+
 
 ---
 
@@ -140,9 +133,6 @@ GitHub DMCA protection applies.
 Aspiring Data Analyst
 If you found this project helpful, please consider giving it a ⭐ to support my work!
 
-## 📊 Dashboard Preview
+## 🖼️ Dashboard Preview
 
-<p align="center">
-  <img src="HR%20Attrition%20Project/HR%20Attrition%20Dashboard.png" width="850">
-</p>
-
+![HR Attrition Dashboard](HR%20Attrition%20Project/HR%20Attrition%20Dashboard.png)
